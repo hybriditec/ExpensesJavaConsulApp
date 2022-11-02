@@ -42,7 +42,7 @@ public class Main {
         System.out.println("Sum of All Expenses " + sumOfAllExp);
     }
 
-    public static void displayAllExpenses(){
+    private static void displayAllExpenses(){
         for (ExpensesModel model : expensesList) {
             System.out.println(model);
         }
